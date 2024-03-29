@@ -1,0 +1,52 @@
+
+body{
+    background: aquamarine;
+    font-size: 16px;
+    font-family: 'Arial';
+}
+.prew{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+}
+.new1{
+    background-image: url(../img/cska.jpg);
+}
+.new2{
+    background-image: url(../img/index.jpg);
+}
+h1{font-size: 24px;}
+h2{font-size: 20px;}
+h3{font-size: 18px;}
+ul li{
+    display: inline-block;
+}
+ul{
+    background: coral;
+}
+li{
+    padding: 10px;
+}
+.content{
+    display: flex;
+}
+main{
+    width: 70%;
+}
+aside{
+    width: 30%;
+    background:crimson;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.skils, .courses{
+    display: flex;
+}
+.skil, .course{ 
+    margin: 20px;
+}
+.skil img,.course img{
+    width: 300px;
+    height: 200px;
+}
